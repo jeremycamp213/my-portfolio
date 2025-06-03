@@ -1,0 +1,189 @@
+
+#homeHeading1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 500%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navBar a{
+    color: white;
+    margin-left: 20px;
+}
+
+.navBar a:hover{
+    color: mediumspringgreen ;
+    font-weight: bold;
+}
+
+#myPicture{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.myIntro{
+    color: white;
+    font-size: x-large;
+    font-family:  monospace;
+    text-indent: 2em;
+    margin: 50px;
+} 
+
+#topColorBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    transition: background-color 1s ease;
+    z-index: 1000;
+  }
+  
+  #colorBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    transition: background-color 1s ease;
+    z-index: 1000;
+  }
+  
+
+
+
+
+
+
+
+
+
+  #aboutBody{
+    background-image: url(aboutBackground.gif);
+    background-size: cover;
+  }
+  
+
+  .black-box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 20px auto; 
+  }
+
+  #aboutHeading1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 400%;
+  }
+
+  .aboutText{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+
+
+
+
+  
+
+
+
+  #contactHeading1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 400%;
+  }
+
+  #contactBody{
+    background-color: aquamarine;
+    background-image: url(contactBackground.gif);
+    background-size: cover;
+  }
+
+  #email{
+    color: white;
+    transition: font-weight 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkorchid;
+    border-radius: 5px;
+    margin-left: 28%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+
+  #email:hover{
+    color: mediumspringgreen;
+    font-weight: bold;
+  }
+
+  #github{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkorchid;
+    border-radius: 5px;
+  }
+
+  #github:hover{
+    color:mediumspringgreen;
+    font-weight: bold;
+  }
+
+  #contactTable1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ball {
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+  }
+  
+
+
+
+
+
+
+
+
+  #projectsBody{
+    background-image: url(projectsBackground.gif);
+    background-size: cover;
+  }
+
+  #projectsHeading1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 400%;
+  }
+
+#NAprojects{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
